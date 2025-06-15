@@ -122,7 +122,7 @@ function App() {
           {allTodo.map(item => {
             return (showFinished || !item.isCompleted) && <div key={item.id} className="todo flex justify-between items-center">
               <div className="text flex gap-2 items-center">
-                <input className='mt-1' type="checkbox" onChange={checkboxChange} name={item.id} id="" checked={item.isCompleted} />
+                <input className='md:mt-1' type="checkbox" onChange={checkboxChange} name={item.id} id="" checked={item.isCompleted} />
                 <div className={`text-xl ${item.isCompleted ? "line-through" : ""}`}>{item.todo}</div>
               </div>
               <div className="buttons flex gap-5">
