@@ -107,7 +107,7 @@ function App() {
         </div>
 
         <div className="showFinish flex items-center gap-3">
-          <input type="checkbox" className='mt-1' onChange={toggleFinished} checked={showFinished} />
+          <input type="checkbox" className='md:mt-1' onChange={toggleFinished} checked={showFinished} />
           <p>Show Finished Tasks</p>
 
         </div>
